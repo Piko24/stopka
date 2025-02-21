@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pko24 Email Footer Generator</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <h2>Piko24 Email Footer Generator</h2>
+
+    <label>Select Footer Template:</label>
+    <select id="footer-select">
+      <option value="v1.html">Footer Template 1</option>
+    </select>
+
+    <label>Your Name:</label>
+    <input type="text" id="name" placeholder="John Doe">
+
+    <label>Job Title:</label>
+    <input type="text" id="job" placeholder="Software Engineer">
+
+    <label>Phone Number:</label>
+    <input type="tel" id="phone" placeholder="+48 123 456 789">
+
+    <label>Your Email:</label>
+    <input type="email" id="email" placeholder="john@example.com">
+
+    <label>Web URL:</label>
+    <input type="text" id="web-url" placeholder="www.piko24.pl">
+
+    <label>LinkedIn URL:</label>
+    <input type="url" id="linkedin-url" placeholder="https://www.linkedin.com/in/johndoe">
+
+    <label>Facebook URL:</label>
+    <input type="url" id="facebook-url" placeholder="https://www.facebook.com/johndoe">
+
+    <label>Consent:</label>
+    <textarea
+      id="consent"
+      placeholder="Piko24 sp. z o.o., adres: Rynek 2, 43-190 Mikołów, KRS: 0001119063, NIP: 6351871858, REGON: 529292987, kapitał zakładowy 1.000.000,00 zł. RODO"
+    ></textarea>
+
+    <h3>Preview:</h3>
+    <div id="footer-preview" class="footer-preview"></div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
