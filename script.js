@@ -19,7 +19,7 @@ class EmailFooterPreviewHandler {
       webUrl: 'www.piko24.pl',
       linkedInUrl: 'https://www.linkedin.com/in/johndoe',
       facebookUrl: 'https://www.facebook.com/johndoe',
-      consent: 'Piko24 sp. z o.o., adres: Rynek 2, 43-190 Mikołów, KRS: 0001119063, NIP: 6351871858, REGON: 529292987, kapitał zakładowy 1.000.000,00 zł. RODO',
+      consent: 'Piko24 sp. z o.o., adres: Rynek 2, 43-190 Mikołów, KRS: 0001119063, NIP: 6351871858, REGON: 529292987, kapitał zakładowy 1.000.000,00 zł. <a href="https://www.piko24.pl/rodo" style="text-decoration: underline; color: #000000;" target="_blank">RODO</a>',
     };
 
     this.originalTemplate = '';
