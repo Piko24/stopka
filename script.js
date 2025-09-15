@@ -92,7 +92,6 @@ class EmailFooterPreviewHandler {
     let consent = this.consentInput.value || this.defaultValues.consent;
 
     if (this.template === 'shelfio-v2') {
-      webUrl = this.defaultTemplateValues['shelfio-v2'].webUrl;
       webUrlDisplay = this.defaultTemplateValues['shelfio-v2'].webUrlDisplay;
       consent = this.defaultTemplateValues['shelfio-v2'].consent;
     }
