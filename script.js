@@ -10,8 +10,8 @@ class EmailFooterPreviewHandler {
   defaultTemplateValues = {
     'shelfio-v2': {
       webUrl: 'www.shopbox.pl',
-      webUrlDisplay: 'www.shelfio.eu',
-      consent: 'ShopBox sp. z o.o., ul. Franciszka Klimczaka 1, 02-797 Warszawa, wpisana do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy dla Krakowa Śródmieścia w Krakowie, XI Wydział Gospodarczy Krajowego Rejestru Sądowego pod numerem KRS: 0000881197, posiadającą numer NIP: 6751744626 oraz REGON: 388061653, <a href="https://shopbox.pl/privacy-policy" style="text-decoration: underline; color: #000000;" target="_blank">RODO</a>.'
+      webUrlDisplay: 'www.shelfio.com',
+      consent: 'Shelfio Sp. z o.o., ul. Franciszka Klimczaka 1, 02-797 Warszawa, wpisana do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy dla Krakowa Śródmieścia w Krakowie, XI Wydział Gospodarczy Krajowego Rejestru Sądowego pod numerem KRS: 0000881197, posiadającą numer NIP: 6751744626 oraz REGON: 388061653, <a href="https://shopbox.pl/privacy-policy" style="text-decoration: underline; color: #000000;" target="_blank">RODO</a>.'
     },
   };
 
@@ -92,7 +92,6 @@ class EmailFooterPreviewHandler {
     let consent = this.consentInput.value || this.defaultValues.consent;
 
     if (this.template === 'shelfio-v2') {
-      webUrl = this.defaultTemplateValues['shelfio-v2'].webUrl;
       webUrlDisplay = this.defaultTemplateValues['shelfio-v2'].webUrlDisplay;
       consent = this.defaultTemplateValues['shelfio-v2'].consent;
     }
