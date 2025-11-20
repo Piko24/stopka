@@ -11,7 +11,7 @@ class EmailFooterPreviewHandler {
     'shelfio-v2': {
       webUrl: 'www.shopbox.pl',
       webUrlDisplay: 'www.shelfio.com',
-      consent: 'Shelfio Sp. z o.o., ul. Franciszka Klimczaka 1, 02-797 Warszawa, wpisana do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy dla Krakowa Śródmieścia w Krakowie, XI Wydział Gospodarczy Krajowego Rejestru Sądowego pod numerem KRS: 0000881197, posiadającą numer NIP: 6751744626 oraz REGON: 388061653, <a href="https://shopbox.pl/privacy-policy" style="text-decoration: underline; color: #000000;" target="_blank">RODO</a>.'
+      consent: 'Shelfio Sp. z o.o., ul. Franciszka Klimczaka 1, 02-797 Warszawa, wpisana do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy dla m.st. Warszawa w Warszawie, XIII Wydział Gospodarczy Krajowego Rejestru Sądowego pod numerem KRS: 0000881197, posiadającą numer NIP: 6751744626 oraz REGON: 388061653, <a href="https://shopbox.pl/privacy-policy" style="text-decoration: underline; color: #000000;" target="_blank">RODO</a>.'
     },
   };
 
