@@ -5,6 +5,7 @@ class EmailFooterPreviewHandler {
     'v1.html': 'v1',
     'v2.html': 'v2',
     'shelfio-v2.html': 'shelfio-v2',
+    'gymbox-v1.html': 'gymbox-v1',
   };
 
   defaultTemplateValues = {
